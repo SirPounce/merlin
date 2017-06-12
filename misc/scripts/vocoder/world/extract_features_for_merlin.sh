@@ -1,14 +1,14 @@
 #!/bin/sh
 
 # top merlin directory
-merlin_dir=../../../../../
+merlin_dir=../../
 
 # tools directory
 world="${merlin_dir}/tools/bin/WORLD"
 sptk="${merlin_dir}/tools/bin/SPTK-3.9"
 
 # input audio directory
-wav_dir=Â$1
+wav_dir=$1
 
 # Output features directory
 out_dir=$2
