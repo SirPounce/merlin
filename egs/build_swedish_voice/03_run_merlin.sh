@@ -25,7 +25,7 @@ echo "Step 2: training duration model..."
 
 ### Step 3: train acoustic model ###
 echo "Step 3: training acoustic model..."
-#./scripts/submit.sh ${MerlinDir}/src/run_merlin.py conf/acoustic_${Voice}.conf
+./scripts/submit.sh ${MerlinDir}/src/run_merlin.py conf/acoustic_${Voice}.conf
 
 ### Step 4: synthesize speech   ###
 echo "Step 4: synthesizing speech..."
@@ -36,6 +36,6 @@ echo "Step 4: synthesizing speech..."
 #echo "Step 5: deleting intermediate synthesis files..."
 #./scripts/remove_intermediate_files.sh conf/global_settings.cfg
 
-echo "synthesized audio files are in: experiments/${Voice}/test_synthesis/wav"
-echo "All successfull!! Your demo voice is ready :)"
+#echo "synthesized audio files are in: experiments/${Voice}/test_synthesis/wav"
+echo "All successfull!! Your demo voice is ready Kappa"
 
