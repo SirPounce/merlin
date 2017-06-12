@@ -5,7 +5,7 @@
 egs/**/conf/*
 !egs/**/conf/dnn
 !egs/**/conf/logging_config.conf
-
+!egs/**/conf/general/*
 # Running part
 experiments/
 *data*
