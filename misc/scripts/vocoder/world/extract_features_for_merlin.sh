@@ -1,17 +1,17 @@
 #!/bin/sh
 
 # top merlin directory
-merlin_dir="/afs/inf.ed.ac.uk/group/cstr/projects/phd/s1432486/work/test/merlin"
+merlin_dir="/data/joniva/software/merlin/"
 
 # tools directory
 world="${merlin_dir}/tools/bin/WORLD"
 sptk="${merlin_dir}/tools/bin/SPTK-3.9"
 
 # input audio directory
-wav_dir="${merlin_dir}/egs/slt_arctic/s1/slt_arctic_full_data/wav"
+wav_dir="/data/joniva/build_swedish_voice/database/wav/"
 
 # Output features directory
-out_dir="${merlin_dir}/egs/slt_arctic/s1/slt_arctic_full_data/feat"
+out_dir="/data/joniva/build_swedish_voice/experiments/nst_swe_dnn/acoustic_model/data/"
 
 sp_dir="${out_dir}/sp"
 mgc_dir="${out_dir}/mgc"

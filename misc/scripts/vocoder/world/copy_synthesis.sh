@@ -1,17 +1,18 @@
 #!/bin/sh
 
 # top merlin directory
-merlin_dir="/afs/inf.ed.ac.uk/group/cstr/projects/phd/s1432486/work/test/merlin"
-
+#merlin_dir="/afs/inf.ed.ac.uk/group/cstr/projects/phd/s1432486/work/test/merlin"
+merlin_dir="/data/joniva/software/merlin"
+voice_dir="/data/joniva/build_swedish_voice"
 # tools directory
 world="${merlin_dir}/tools/bin/WORLD"
 sptk="${merlin_dir}/tools/bin/SPTK-3.9"
 
 # input audio directory
-wav_dir="${merlin_dir}/tools/WORLD/wav_test"
+wav_dir="${voice_dir}/copy_synthesis_in"
 
 # Output features directory
-out_dir="${merlin_dir}/tools/WORLD/wav_test"
+out_dir="${voice_dir}/copy_synthesis_out"
 
 sp_dir="${out_dir}/sp"
 mgc_dir="${out_dir}/mgc"

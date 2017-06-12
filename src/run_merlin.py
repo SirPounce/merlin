@@ -344,7 +344,7 @@ def train_DNN(train_xy_file_list, valid_xy_file_list, \
         previous_loss = this_validation_loss
 
     end_time = time.time()
-#    cPickle.dump(best_dnn_model, open(nnets_file_name, 'wb'))
+    cPickle.dump(best_dnn_model, open(nnets_file_name, 'wb'))
             
     logger.info('overall  training time: %.2fm validation error %f' % ((end_time - start_time) / 60., best_validation_loss))
 

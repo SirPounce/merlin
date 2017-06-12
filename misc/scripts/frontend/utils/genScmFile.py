@@ -1,6 +1,5 @@
 import os,sys,glob
 import collections
-
 def readtext(fname):
     f = open(fname, 'r')
     data = f.read()
@@ -17,7 +16,7 @@ def create_dictionary_from_txt_dir(txt_dir):
     for i in xrange(num_of_files):
         textfile = textfiles[i]
         junk,filename = os.path.split(textfile)
-        filename = filename.split('.')[0]
+        filename = filename.replace('.txt','')
         
         text = readtext(textfile)
         utt_text[filename] = text

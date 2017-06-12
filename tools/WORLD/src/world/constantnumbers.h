@@ -10,9 +10,9 @@
 namespace world {
   const double kPi = 3.1415926535897932384;
   const double kMySafeGuardMinimum = 0.000000000001;
-  const double kFloorF0 = 120.0;
+  const double kFloorF0 = 51;
   const double kCeilF0 = 500.0;
-  const double kDefaultF0 = 120.0;
+  const double kDefaultF0 = 70;
   const double kLog2 = 0.69314718055994529;
   // Maximum standard deviation not to be selected as a best f0.
   const double kMaximumValue = 100000.0;
