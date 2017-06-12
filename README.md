@@ -1,3 +1,9 @@
+THIS IS A MODIFIED VERSION FOR SWEDISH ONLY
+=====================================================
+LOOK IN egs/build_swedish_voice/
+
+
+
 The Neural Network (NN) based Speech Synthesis System
 =====================================================
   
