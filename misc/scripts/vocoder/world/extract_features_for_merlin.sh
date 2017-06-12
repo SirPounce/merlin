@@ -1,17 +1,17 @@
 #!/bin/sh
 
 # top merlin directory
-merlin_dir="/data/joniva/software/merlin/"
+merlin_dir=../../../../../
 
 # tools directory
 world="${merlin_dir}/tools/bin/WORLD"
 sptk="${merlin_dir}/tools/bin/SPTK-3.9"
 
 # input audio directory
-wav_dir="/data/joniva/build_swedish_voice/database/wav/"
+wav_dir=Â$1
 
 # Output features directory
-out_dir="/data/joniva/build_swedish_voice/experiments/nst_swe_dnn/acoustic_model/data/"
+out_dir=$2
 
 sp_dir="${out_dir}/sp"
 mgc_dir="${out_dir}/mgc"
