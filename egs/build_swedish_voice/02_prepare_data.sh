@@ -64,7 +64,9 @@ fi
 
 ./scripts/movefiles.sh $voice_dir
 
-./../../misc/scripts/vocoder/world/extract_features_for_merlin.sh database/wav/ $voice_dir
+./../../misc/scripts/vocoder/world/extract_features_for_merlin.sh database/wav/ $voice_dir/acousticmodel/data/
+
+echo "All files prepared! :D"
 
 ####################################
 ##### prepare vocoder features #####
