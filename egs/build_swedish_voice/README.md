@@ -15,8 +15,12 @@ Prepare Data
 ------------
 
 Put wav files in database/wav
+
 Put txt files in database/txt
+
 Put lab files in database/lab
+
+Note that the .lab files have to be in the same format as the merlin/misc/questions/questions-nst-swe.hed
 
 Run
 
